@@ -1,0 +1,13 @@
+const files = [
+    "image1.png",
+    "image2.png",
+    "image3.png"
+];
+
+files.forEach((file, index) => {
+
+    const newName =
+        `renamed_${index + 1}.png`;
+
+    console.log(`${file} -> ${newName}`);
+});
