@@ -1,0 +1,11 @@
+files = [
+    "image1.png",
+    "image2.png",
+    "image3.png"
+]
+
+for index, file in enumerate(files, start=1):
+
+    new_name = f"renamed_{index}.png"
+
+    print(f"{file} -> {new_name}")
